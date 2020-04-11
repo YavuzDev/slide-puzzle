@@ -40272,7 +40272,7 @@ F.Bf.prototype={
 Nq:function(){var t,s=null,r=H.b([],u.E),q=this.e.e_(this.d)
 if(q==null)return r
 for(t=0;t<q.length;++t){r.push(new T.cA(C.H,s,s,L.c2(C.c.O(J.D7(J.Dd(q[t]," ")[0],"ms")+" - ",J.Dd(q[t]," ")[1]),A.dl(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,!0,s,s,s,s,s,s)),s))
-r.push(new Z.nm(2,C.o,s))}return r},
+r.push(new Z.nm(6,C.o,s))}return r},
 kp:function(a){var t,s,r,q=this.e.e_(a)
 for(t=2147e6,s=0;s<q.length;++s){r=P.dT(J.Dd(q[s]," ")[0],null,null)
 if(r<t)t=r}return C.f.h(t)+"ms"},
@@ -40289,13 +40289,13 @@ q=u.E
 p=T.K_(H.b([new T.eE(1,C.bx,L.c2("Total completed: "+(r.e_(i.d)==null?0:r.e_(i.d).length),A.dl(h,h,h,h,h,h,h,h,h,h,h,15,h,h,h,h,!0,h,h,h,h,h,h)),h),new T.eE(1,C.bx,L.c2("Average time: "+i.A8()+"ms",A.dl(h,h,h,h,h,h,h,h,h,h,h,15,h,h,h,h,!0,h,h,h,h,h,h)),h)],q),C.bu,C.oK,C.bP)
 o=r.e_("3x3")==null?"No 3x3 puzzle completed":"Fastest time 3x3: "+i.kp("3x3")
 o=L.c2(o,A.dl(h,h,h,h,h,h,h,h,h,h,h,20,h,h,h,h,!0,h,h,h,h,h,h))
-n=Z.Sj(C.o,2)
+n=Z.Sj(C.o,6)
 m=r.e_("4x4")==null?"No 4x4 puzzle completed":"Fastest time 4x4: "+i.kp("4x4")
 m=L.c2(m,A.dl(h,h,h,h,h,h,h,h,h,h,h,20,h,h,h,h,!0,h,h,h,h,h,h))
-l=Z.Sj(C.o,2)
+l=Z.Sj(C.o,6)
 k=r.e_("5x5")==null?"No 5x5 puzzle completed":"Fastest time 5x5: "+i.kp("5x5")
 k=L.c2(k,A.dl(h,h,h,h,h,h,h,h,h,h,h,20,h,h,h,h,!0,h,h,h,h,h,h))
-j=Z.Sj(C.o,2)
+j=Z.Sj(C.o,6)
 r=r.e_("6x6")==null?"No 6x6 puzzle completed":"Fastest time 6x6: "+i.kp("6x6")
 return M.W2(g,B.w9(H.b([T.UE(H.b([new T.cw(C.jU,h,h,f,h),new T.cq(new V.am(0,20,0,0),new T.ob(1/0,t.b*0.3,s,h),h),new T.cq(new V.am(0,10,0,10),p,h),new T.cq(new V.am(0,20,0,0),B.w9(H.b([o,n,m,l,k,j,L.c2(r,A.dl(h,h,h,h,h,h,h,h,h,h,h,20,h,h,h,h,!0,h,h,h,h,h,h))],q),h,h,new L.wz(h),!0),h)],q),C.e2,C.bP)],q),h,h,h,!0),h,h)}}
 F.Pw.prototype={
